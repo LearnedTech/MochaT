@@ -1,0 +1,20 @@
+{
+  "name": "mochademo",
+  "version": "1.0.0",
+  "description": "mocha tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./components/functions/oldTest/*.spec.js"
+  },
+  "type": "module",
+  "author": "Vusi",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  },
+  "dependencies": {
+    "chai": "^4.3.7",
+    "expect": "^29.6.2",
+    "sinon": "^15.2.0"
+  }
+}
